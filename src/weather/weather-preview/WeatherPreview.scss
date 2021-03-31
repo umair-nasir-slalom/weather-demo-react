@@ -1,0 +1,54 @@
+.preview-container {
+  min-width: 275px;
+
+  .preview-header {
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto, sans-serif;
+    justify-content: space-between;
+
+    .title-block {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+
+      .location {
+        font-size: 40px;
+      }
+
+      .weather {
+        font-size: 20px;
+
+      }
+    }
+
+    .image {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .preview-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .data {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .action-button {
+      font-size: 20px;
+      font-weight: 800;
+    }
+  }
+
+  .no-preview {
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto, sans-serif;
+    justify-content: center;
+  }
+}

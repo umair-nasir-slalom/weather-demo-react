@@ -1,0 +1,23 @@
+.forecast-container {
+  .forecast-content {
+    .table {
+      thead {
+        background-color: darkgrey;
+        color: white;
+      }
+    }
+
+    .day-toggles {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+  .no-forecast {
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto, sans-serif;
+    justify-content: center;
+  }
+}
